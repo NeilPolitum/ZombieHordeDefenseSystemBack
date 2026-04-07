@@ -68,12 +68,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
-
-app.UseMiddleware<ApiKeyAuthMiddleware>();
+else
+{
+    app.UseHttpsRedirection();
+}
 
 app.UseCors("ZSafeFrontend");
+
+app.UseMiddleware<ApiKeyAuthMiddleware>();
 
 app.MapControllers();
 
