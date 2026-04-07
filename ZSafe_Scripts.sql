@@ -128,3 +128,68 @@ FROM dbo.Zombie
 WHERE Tipo = 'Corredor Alfa';
 GO
 
+IF NOT EXISTS (
+    SELECT 1
+    FROM sys.indexes
+    WHERE name = 'IX_Eliminados_SimulacionId'
+    AND object_id = OBJECT_ID('dbo.Eliminados')
+)
+BEGIN
+    CREATE NONCLUSTERED INDEX IX_Eliminados_SimulacionId ON dbo.Eliminados (SimulacionId);
+END
+GO
+
+IF NOT EXISTS (
+    SELECT 1
+    FROM sys.indexes
+    WHERE name = 'IX_Eliminados_ZombieId'
+    AND object_id = OBJECT_ID('dbo.Eliminados')
+)
+BEGIN
+    CREATE NONCLUSTERED INDEX IX_Eliminados_ZombieId ON dbo.Eliminados (ZombieId);
+END
+GO
+
+-- Consulta con LEFT JOIN agrupada por simulacion y tipo de zombie
+SELECT
+    s.Id AS SimulacionId,
+    s.Fecha,
+    z.Tipo AS TipoZombie,
+    COUNT(e.Id) AS totalZombiesEliminados,
+    ISNULL(SUM(e.PuntosObtenidos), 0) AS PuntosTotales
+FROM dbo.Simulaciones AS s
+LEFT JOIN dbo.Eliminados AS e
+    ON s.Id = e.SimulacionId
+LEFT JOIN dbo.Zombie AS z
+    ON e.ZombieId = z.Id
+GROUP BY
+    s.Id,
+    s.Fecha,
+    z.Tipo
+ORDER BY
+    s.Id DESC,
+    PuntosTotales DESC;
+GO
+
+-- Validacion del LEFT JOIN:
+-- Si existe una simulacion sin registros en Eliminados, debe aparecer igual en el resultado.
+SELECT
+    s.Id AS SimulacionId,
+    s.Fecha,
+    ISNULL(z.Tipo, 'SIN ELIMINADOS') AS TipoZombie,
+    COUNT(e.Id) AS TotalZombiesEliminados,
+    ISNULL(SUM(e.PuntosObtenidos), 0) AS PuntosTotales
+FROM dbo.Simulaciones AS s
+LEFT JOIN dbo.Eliminados AS e
+    ON s.Id = e.SimulacionId
+LEFT JOIN dbo.Zombie AS z
+    ON e.ZombieId = z.Id
+GROUP BY
+    s.Id,
+    s.Fecha,
+    ISNULL(z.Tipo, 'SIN ELIMINADOS')
+ORDER BY
+    s.Id,
+    TipoZombie;
+GO
+
