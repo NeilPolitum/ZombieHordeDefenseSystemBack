@@ -9,3 +9,4 @@
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/refint/ZSafeBack.Domain.dll
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ZSafeBack.Domain.pdb
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ref/ZSafeBack.Domain.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ZSafeBack.Domain.sourcelink.json

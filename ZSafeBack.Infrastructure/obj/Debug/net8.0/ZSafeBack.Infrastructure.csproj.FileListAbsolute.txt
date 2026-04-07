@@ -12,3 +12,4 @@
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.pdb
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.genruntimeconfig.cache
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ref/ZSafeBack.Infrastructure.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.sourcelink.json

@@ -102,3 +102,4 @@
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Tests/obj/Debug/net8.0/ZSafeBack.Tests.pdb
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Tests/obj/Debug/net8.0/ZSafeBack.Tests.genruntimeconfig.cache
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Tests/obj/Debug/net8.0/ref/ZSafeBack.Tests.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Tests/obj/Debug/net8.0/ZSafeBack.Tests.sourcelink.json

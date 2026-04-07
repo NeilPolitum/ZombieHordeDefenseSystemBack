@@ -86,3 +86,4 @@
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.API/obj/Debug/net8.0/ZSafeBack.API.pdb
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.API/obj/Debug/net8.0/ZSafeBack.API.genruntimeconfig.cache
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.API/obj/Debug/net8.0/ref/ZSafeBack.API.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.API/obj/Debug/net8.0/ZSafeBack.API.sourcelink.json

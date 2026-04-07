@@ -13,3 +13,4 @@
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/refint/ZSafeBack.Application.dll
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBack.Application.pdb
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ref/ZSafeBack.Application.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBack.Application.sourcelink.json
