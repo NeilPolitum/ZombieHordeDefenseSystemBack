@@ -171,25 +171,4 @@ ORDER BY
     PuntosTotales DESC;
 GO
 
--- Validacion del LEFT JOIN:
--- Si existe una simulacion sin registros en Eliminados, debe aparecer igual en el resultado.
-SELECT
-    s.Id AS SimulacionId,
-    s.Fecha,
-    ISNULL(z.Tipo, 'SIN ELIMINADOS') AS TipoZombie,
-    COUNT(e.Id) AS TotalZombiesEliminados,
-    ISNULL(SUM(e.PuntosObtenidos), 0) AS PuntosTotales
-FROM dbo.Simulaciones AS s
-LEFT JOIN dbo.Eliminados AS e
-    ON s.Id = e.SimulacionId
-LEFT JOIN dbo.Zombie AS z
-    ON e.ZombieId = z.Id
-GROUP BY
-    s.Id,
-    s.Fecha,
-    ISNULL(z.Tipo, 'SIN ELIMINADOS')
-ORDER BY
-    s.Id,
-    TipoZombie;
-GO
 
