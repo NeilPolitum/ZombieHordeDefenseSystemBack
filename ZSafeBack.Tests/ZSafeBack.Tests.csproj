@@ -22,4 +22,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ZSafeBack.Application\ZSafeBack.Application.csproj" />
+    <ProjectReference Include="..\ZSafeBack.Domain\ZSafeBack.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

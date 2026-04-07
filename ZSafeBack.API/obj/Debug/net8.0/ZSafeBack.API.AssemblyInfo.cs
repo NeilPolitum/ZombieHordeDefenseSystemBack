@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZSafeBack.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba40c7f2191ff584fb4767a0452143a6854170e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feaf63c2e0f95fb57d4daa44338dcf59f9a3f4de")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZSafeBack.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZSafeBack.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -42,8 +42,11 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
-    ?? "Server=(local);Database=ZSafeDb;Integrated Security=true;TrustServerCertificate=True;";
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+if (string.IsNullOrWhiteSpace(connectionString))
+{
+    throw new InvalidOperationException("La cadena de conexión 'DefaultConnection' no está configurada.");
+}  
 builder.Services.AddDbContext<DefenseBDContext>(options =>
     options.UseSqlServer(connectionString));
 

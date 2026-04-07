@@ -4,6 +4,136 @@
     "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Tests/ZSafeBack.Tests.csproj": {}
   },
   "projects": {
+    "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/ZSafeBack.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/ZSafeBack.Application.csproj",
+        "projectName": "ZSafeBack.Application",
+        "projectPath": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/ZSafeBack.Application.csproj",
+        "packagesPath": "/home/rubianodaniel/.nuget/packages/",
+        "outputPath": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rubianodaniel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj": {
+                "projectPath": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj",
+        "projectName": "ZSafeBack.Domain",
+        "projectPath": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj",
+        "packagesPath": "/home/rubianodaniel/.nuget/packages/",
+        "outputPath": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rubianodaniel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.419/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Tests/ZSafeBack.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +155,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/ZSafeBack.Application.csproj": {
+                "projectPath": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/ZSafeBack.Application.csproj"
+              },
+              "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj": {
+                "projectPath": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
