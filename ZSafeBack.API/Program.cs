@@ -57,7 +57,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+    options.AddPolicy("ZSafeFrontend", policy => policy.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod());
 });
 
 var app = builder.Build();
@@ -73,7 +73,7 @@ app.UseHttpsRedirection();
 
 app.UseMiddleware<ApiKeyAuthMiddleware>();
 
-app.UseCors("AllowAll");
+app.UseCors("ZSafeFrontend");
 
 app.MapControllers();
 
