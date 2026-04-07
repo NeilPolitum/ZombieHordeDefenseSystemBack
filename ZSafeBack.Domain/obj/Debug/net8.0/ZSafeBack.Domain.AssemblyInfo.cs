@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZSafeBack.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47f00023a898ae2b8bc6277fcbad1d83629035ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58ccfbe1b8aac25e0b1f0c97a90fc372b0c7eca0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZSafeBack.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZSafeBack.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
