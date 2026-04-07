@@ -650,7 +650,8 @@
       },
       "ZSafeBack.Infrastructure/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
+          "ZSafeBack.Domain": "1.0.0"
         },
         "runtime": {
           "ZSafeBack.Infrastructure.dll": {

@@ -13,3 +13,6 @@
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.genruntimeconfig.cache
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ref/ZSafeBack.Infrastructure.dll
 /home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.sourcelink.json
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/bin/Debug/net8.0/ZSafeBack.Domain.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/bin/Debug/net8.0/ZSafeBack.Domain.pdb
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBac.84D8969E.Up2Date

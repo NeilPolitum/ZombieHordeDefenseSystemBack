@@ -233,7 +233,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj": {
+                "projectPath": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

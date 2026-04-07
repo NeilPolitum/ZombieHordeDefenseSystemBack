@@ -1495,6 +1495,16 @@
             "rid": "win"
           }
         }
+      },
+      "ZSafeBack.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ZSafeBack.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZSafeBack.Domain.dll": {}
+        }
       }
     }
   },
@@ -4030,12 +4040,18 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ZSafeBack.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ZSafeBack.Domain/ZSafeBack.Domain.csproj",
+      "msbuildProject": "../ZSafeBack.Domain/ZSafeBack.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.10"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
+      "ZSafeBack.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4062,7 +4078,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj": {
+              "projectPath": "/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/ZSafeBack.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
