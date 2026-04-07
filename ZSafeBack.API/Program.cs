@@ -58,18 +58,6 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
-try 
-{
-    using (var scope = app.Services.CreateScope())
-    {
-        var dbContext = scope.ServiceProvider.GetRequiredService<DefenseBDContext>();
-        dbContext.Database.Migrate();
-    }
-}
-catch (Exception ex)
-{
-    app.Logger.LogError($"Error al migrar la base de datos: {ex.Message}");
-}
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

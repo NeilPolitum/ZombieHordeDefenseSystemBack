@@ -17,6 +17,20 @@ public class ZombieRepository : IZombieRepository
 
     public async Task<IEnumerable<ZombieType>> GetAllAsync()
     {
-        return await _context.ZombieTypes.ToListAsync();
+        return await _context.ZombieTypes
+            .FromSqlRaw(@"
+                SELECT
+                    z.Id,
+                    z.Tipo AS Name,
+                    CAST(ROUND(z.TiempoDisparo, 0) AS INT) AS TimeToShoot,
+                    CAST(z.BalasNecesarias AS INT) AS BulletsRequired,
+                    CAST(CASE
+                        WHEN z.NivelAmenaza * 10 > 100 THEN 100
+                        ELSE z.NivelAmenaza * 10
+                    END AS INT) AS Score,
+                    CAST(z.NivelAmenaza AS INT) AS ThreatLevel
+                FROM dbo.Zombies AS z")
+            .AsNoTracking()
+            .ToListAsync();
     }
 }
