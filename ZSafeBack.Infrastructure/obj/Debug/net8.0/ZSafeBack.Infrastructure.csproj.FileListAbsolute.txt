@@ -1,0 +1,14 @@
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/bin/Debug/net8.0/ZSafeBack.Infrastructure.deps.json
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/bin/Debug/net8.0/ZSafeBack.Infrastructure.runtimeconfig.json
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/bin/Debug/net8.0/ZSafeBack.Infrastructure.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/bin/Debug/net8.0/ZSafeBack.Infrastructure.pdb
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.csproj.AssemblyReference.cache
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.AssemblyInfoInputs.cache
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.AssemblyInfo.cs
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.csproj.CoreCompileInputs.cache
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/refint/ZSafeBack.Infrastructure.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.pdb
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ZSafeBack.Infrastructure.genruntimeconfig.cache
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Infrastructure/obj/Debug/net8.0/ref/ZSafeBack.Infrastructure.dll

@@ -1,0 +1,15 @@
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/bin/Debug/net8.0/ZSafeBack.Application.deps.json
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/bin/Debug/net8.0/ZSafeBack.Application.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/bin/Debug/net8.0/ZSafeBack.Application.pdb
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/bin/Debug/net8.0/ZSafeBack.Domain.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/bin/Debug/net8.0/ZSafeBack.Domain.pdb
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBack.Application.csproj.AssemblyReference.cache
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBack.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBack.Application.AssemblyInfoInputs.cache
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBack.Application.AssemblyInfo.cs
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBack.Application.csproj.CoreCompileInputs.cache
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBac.656063A6.Up2Date
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBack.Application.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/refint/ZSafeBack.Application.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ZSafeBack.Application.pdb
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Application/obj/Debug/net8.0/ref/ZSafeBack.Application.dll

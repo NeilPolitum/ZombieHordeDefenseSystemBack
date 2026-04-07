@@ -1,0 +1,11 @@
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/bin/Debug/net8.0/ZSafeBack.Domain.deps.json
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/bin/Debug/net8.0/ZSafeBack.Domain.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/bin/Debug/net8.0/ZSafeBack.Domain.pdb
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ZSafeBack.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ZSafeBack.Domain.AssemblyInfoInputs.cache
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ZSafeBack.Domain.AssemblyInfo.cs
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ZSafeBack.Domain.csproj.CoreCompileInputs.cache
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ZSafeBack.Domain.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/refint/ZSafeBack.Domain.dll
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ZSafeBack.Domain.pdb
+/home/rubianodaniel/RepoAG/BackEnd/ZSafeBack.Domain/obj/Debug/net8.0/ref/ZSafeBack.Domain.dll

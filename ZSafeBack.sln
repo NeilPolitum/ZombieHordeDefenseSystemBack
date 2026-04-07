@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSafeBack.Application", "ZSafeBack.Application\ZSafeBack.Application.csproj", "{4DDF55C4-8A22-4C52-B1E1-A11FA384A7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSafeBack.Domain", "ZSafeBack.Domain\ZSafeBack.Domain.csproj", "{7DF26DC3-E8AE-4BFF-9CBF-7D5945278BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSafeBack.Infrastructure", "ZSafeBack.Infrastructure\ZSafeBack.Infrastructure.csproj", "{8FF3817F-D5ED-46B8-9163-1F5910174638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSafeBack.Tests", "ZSafeBack.Tests\ZSafeBack.Tests.csproj", "{3184585A-6022-4C18-B778-53F765AA9893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSafeBack.API", "ZSafeBack.API\ZSafeBack.API.csproj", "{C6AC4DA1-A1F2-4BC7-83F2-49B9408867CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DDF55C4-8A22-4C52-B1E1-A11FA384A7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDF55C4-8A22-4C52-B1E1-A11FA384A7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDF55C4-8A22-4C52-B1E1-A11FA384A7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDF55C4-8A22-4C52-B1E1-A11FA384A7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF26DC3-E8AE-4BFF-9CBF-7D5945278BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF26DC3-E8AE-4BFF-9CBF-7D5945278BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF26DC3-E8AE-4BFF-9CBF-7D5945278BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF26DC3-E8AE-4BFF-9CBF-7D5945278BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF3817F-D5ED-46B8-9163-1F5910174638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF3817F-D5ED-46B8-9163-1F5910174638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF3817F-D5ED-46B8-9163-1F5910174638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF3817F-D5ED-46B8-9163-1F5910174638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3184585A-6022-4C18-B778-53F765AA9893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3184585A-6022-4C18-B778-53F765AA9893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3184585A-6022-4C18-B778-53F765AA9893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3184585A-6022-4C18-B778-53F765AA9893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6AC4DA1-A1F2-4BC7-83F2-49B9408867CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6AC4DA1-A1F2-4BC7-83F2-49B9408867CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6AC4DA1-A1F2-4BC7-83F2-49B9408867CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6AC4DA1-A1F2-4BC7-83F2-49B9408867CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
