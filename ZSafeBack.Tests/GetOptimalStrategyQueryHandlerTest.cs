@@ -5,6 +5,7 @@ using FluentAssertions;
 using Moq;
 using ZSafeBack.Application;
 using ZSafeBack.Domain;
+using Xunit;
 
 namespace ZSafeBack.Tests;
 

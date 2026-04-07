@@ -14,7 +14,8 @@ public class DefenseBDContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        
+        modelBuilder.ApplyConfiguration(new ZombieTypeConfiguration());
+
         modelBuilder.Entity<ZombieType>().HasData(
             new ZombieType(1, "Walker", 2, 1, 10, 1),
             new ZombieType(2, "Runner", 3, 2, 25, 2),
